@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      {% block title %}
+      Echo echo echo...
+      {% endblock %}
+    </title>
+  </head>
+  <body>
+    <form action="/hello/">
+      Username: <input type="text" name="username" placeholder="henry" required>
+      <br>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
